@@ -1,0 +1,11 @@
+select
+    hour
+from
+    lyft_rides
+where
+    gasoline_cost = (
+        select
+            max(gasoline_cost)
+        from
+            lyft_rides
+    )
