@@ -1,0 +1,6 @@
+select
+    min(age),
+    avg(age),
+    max(age)
+from
+    olympics_athletes_events;
