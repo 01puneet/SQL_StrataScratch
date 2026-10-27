@@ -6,4 +6,4 @@ from
 where
     device = 'MacBook Pro'
 group by
-    1
+    1 
